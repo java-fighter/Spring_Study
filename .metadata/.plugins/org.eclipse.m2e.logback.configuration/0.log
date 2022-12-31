@@ -3162,3 +3162,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2022-12-31 22:03:21,701 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-12-31 22:03:21,701 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-12-31 22:03:21,705 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-31 22:03:21,720 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2022-12-31 22:03:21,729 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-31 22:03:21,729 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-12-31 22:03:21,729 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hotco\Documents\Spring_Study\spring-mvc\src\test\resources
