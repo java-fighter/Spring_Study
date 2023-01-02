@@ -17,8 +17,9 @@ public class UsersRegisterService {
     @Autowired
     private UsersRepository usersRepository;
     
-    public boolean isValid(UserForm userForm, BindingResult result){
-        if(usersRepository.existsByEmail(userForm.getEmail())) {
+    public boolean isValid(UserForm user, BindingResult result){
+        if(usersRepository.existsByEmail(user.getEmail())) {
+            result.rejectValue("email", null, "既に登録されているE-mailです。");
             return true;
         } else {
             return false;
